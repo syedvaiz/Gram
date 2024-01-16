@@ -1,0 +1,66 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageTop {
+    display: flex;
+}
+
+.messageTop.own {
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.messageImg {
+    display: flex;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+.messageText {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    max-width: 300px;
+}
+
+.messageEmoji {
+    size: 10px 50px;
+    background-color: none;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.messageBottom {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.message.own {
+    align-items: flex-end;
+}
+
+.message.own .messageText {
+    background-color: rgb(245, 241, 241);
+    color: black;
+}
+
+.msgImg {
+    margin-bottom: -15px;
+    margin-top: 20px;
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    flex: 1;
+}
+
+.msgBlock-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+}
